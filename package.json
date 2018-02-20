@@ -1,20 +1,23 @@
 {
   "name": "Botcord",
-  "version": "1.0.0",
-  "description": "A discord bot visualization.",
-  "author": {
-    "name": "Joann Mõndresku",
-    "email": "joann.mondresku@gmail.com",
-    "url": "https://www.hexiumgaming.com"
+  "version": "0.0.1",
+  "description": "Botcord allows you to login to Discord as a bot!",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
   },
-  "engines": {
-    "node": "^6.x.x",
-    "npm": ">=3.x.x"
-  },
-  "license": "GPL-3.0",
-  "repository": "https://gitlab.com/cernodile/Botcord/",
   "dependencies": {
     "cors": "^2.8.1",
     "express": "^4.14.0"
-  }
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "license": "Apache-2.0",
+  "keywords": [
+    "node",
+    "glitch",
+    "express",
+    "discord"
+  ]
 }
