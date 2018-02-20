@@ -354,6 +354,7 @@ border: 2px solid #2e3136;
     width: 240px;
     -webkit-flex-shrink: 0;
     flex-shrink: 0;
+    overflow: hidden !important;
 }
 h2 {
   margin: 0;
