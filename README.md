@@ -1,27 +1,8 @@
-Welcome to the Glitch BETA
-=========================
+# Botcord
+Botcord is a visual representation of OAuth applications in Discord, helps you see how healthy your bot is doing.
+(NOTE! User tokens MAY have some significant issues, I've only focused on bot accounts for now)
 
-Click `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.
+NOTE: The server is NOT required, but you may host it, so you can have a live demo of it for everyone else.
+This product is still in alpha stage, don't expect it to be 100% perfect yet.
 
-**Glitch** is the friendly community where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.
-
-Find out more [about Glitch](https://glitch.com/about).
-
-
-Your Project
-------------
-
-On the front-end,
-- edit `public/client.js`, `public/style.css` and `views/index.html`
-- drag in `assets`, like images or music, to add them to your project
-
-On the back-end,
-- your app starts at `server.js`
-- add frameworks and packages in `package.json`
-- safely store app secrets in `.env` (nobody can see this but you and people you invite)
-
-
-Made by [Fog Creek](https://fogcreek.com/)
--------------------
-
-\ ゜o゜)ノ
+Also, to the Discord Developers, if you don't feel comfromtable with the stylesheet usen, feel free to contact me, I'll take it down upon request.
