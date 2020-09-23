@@ -27,7 +27,7 @@ function restartInitial () {
     $("#token").keypress(function (e) {
       var code = (e.keyCode ? e.keyCode : e.which)
       if (code === 13) {
-        startBotcord($('#token').val())
+        startjakebot($('#token').val())
         document.body.innerHTML = '<h1 style="font-size:3em; margin: 0; padding: 0;padding-top: 20%;">That\'s all we need for now! Your bot should now log in!</h1>'
       }
     })
