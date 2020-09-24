@@ -1,13 +1,4 @@
-/*
-* Welcome to jakebot Public Alpha Testing for Patch 1.0
-* Please keep in mind this is still a work in progress,
-* many things can be broken, all I'm asking you, is to report
-* non-found bugs, to see list of found bugs, check out the
-* Team Cernodile server, #bugs channel.
-*
-* Happy testing,
-* Cernodile
-*/
+
 var Socket = new WebSocket('wss://gateway.discord.gg/?encoding=json&v=6')
 var avatarHashes = [
   "6debd47ed13483642cf09e832ed0bc1b",
@@ -28,8 +19,7 @@ var currentGuildMembers
 var activeGuild
 var converter = new showdown.Converter()
 /*
-* All of the perm constants and functions taken from abalabahaha/eris
-* Slightly modified to fit Botcord
+
 */
 function getPerm(perm) {
     var result = []
